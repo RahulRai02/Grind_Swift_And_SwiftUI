@@ -19,6 +19,7 @@
 		B71F1D902C75FAAB00B5C737 /* GeometryReaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1D8F2C75FAAB00B5C737 /* GeometryReaderDemo.swift */; };
 		B71F1D922C75FDB800B5C737 /* GeometryReaderWithScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1D912C75FDB800B5C737 /* GeometryReaderWithScrollView.swift */; };
 		B71F1D962C765A9500B5C737 /* AnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1D952C765A9500B5C737 /* AnimationDemo.swift */; };
+		B71F1D9E2C7E53A700B5C737 /* 8_Masking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1D9D2C7E53A700B5C737 /* 8_Masking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B71F1D8F2C75FAAB00B5C737 /* GeometryReaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderDemo.swift; sourceTree = "<group>"; };
 		B71F1D912C75FDB800B5C737 /* GeometryReaderWithScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderWithScrollView.swift; sourceTree = "<group>"; };
 		B71F1D952C765A9500B5C737 /* AnimationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemo.swift; sourceTree = "<group>"; };
+		B71F1D9D2C7E53A700B5C737 /* 8_Masking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_Masking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				B71F1D8D2C75E9B900B5C737 /* ScrollViewReaderDemo.swift */,
 				B71F1D8F2C75FAAB00B5C737 /* GeometryReaderDemo.swift */,
 				B71F1D912C75FDB800B5C737 /* GeometryReaderWithScrollView.swift */,
+				B71F1D9D2C7E53A700B5C737 /* 8_Masking.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				B71F1D8C2C74C00400B5C737 /* DragGestureDemo2.swift in Sources */,
 				B71F1D8A2C74B3AC00B5C737 /* DragGestureDemo.swift in Sources */,
 				B71F1D862C6FD45A00B5C737 /* MagnificationGestureDemo.swift in Sources */,
+				B71F1D9E2C7E53A700B5C737 /* 8_Masking.swift in Sources */,
 				B71F1D902C75FAAB00B5C737 /* GeometryReaderDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
