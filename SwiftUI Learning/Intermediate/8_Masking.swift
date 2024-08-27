@@ -11,12 +11,40 @@
 import SwiftUI
 
 struct __Masking: View {
-    @State var rating: Int = 2
+    @State var rating: Int = 0
     
     var body: some View {
         ZStack{
-            starsView
+            cardView
         }
+    }
+    
+    private var cardView: some View{
+        ZStack{
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Color.white)
+                .frame(width: 300, height: 250)
+                .shadow(radius: 20)
+            VStack(spacing:10){
+                Text("Please rate us to improve!")
+                starsView.overlay(overlayView.mask(starsView))
+            }
+            .padding()
+        }
+
+    }
+    
+    private var overlayView: some View{
+        GeometryReader{ geometery in
+            ZStack{
+                Rectangle()
+                    .foregroundStyle(Color.yellow)
+                    .frame(width: CGFloat(rating) / 5 * geometery.size.width)
+            }
+            
+        }
+        // Adding because to disable ontap gesture on the overlay view
+        .allowsHitTesting(false)
     }
     
     private var starsView: some View{
@@ -24,9 +52,11 @@ struct __Masking: View {
             ForEach(1..<6){index in
                 Image(systemName: "star.fill")
                     .font(.largeTitle)
-                    .foregroundStyle(rating >= index ? Color.yellow : Color.gray)
+                    .foregroundStyle(Color.gray)
                     .onTapGesture {
-                        rating = index
+                        withAnimation(.spring()){
+                            rating = index
+                        }
                     }
             }
         }
