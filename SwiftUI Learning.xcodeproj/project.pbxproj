@@ -23,6 +23,7 @@
 		B71F1DA02C7E5E8500B5C737 /* 9_Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1D9F2C7E5E8500B5C737 /* 9_Sounds.swift */; };
 		B71F1DA42C7F1DA700B5C737 /* Sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B71F1DA22C7F1DA700B5C737 /* Sound2.mp3 */; };
 		B71F1DA52C7F1DA700B5C737 /* Sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B71F1DA32C7F1DA700B5C737 /* Sound1.mp3 */; };
+		B71F1DA72C7F7D3900B5C737 /* 10_Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DA62C7F7D3800B5C737 /* 10_Haptic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		B71F1D9F2C7E5E8500B5C737 /* 9_Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9_Sounds.swift; sourceTree = "<group>"; };
 		B71F1DA22C7F1DA700B5C737 /* Sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound2.mp3; sourceTree = "<group>"; };
 		B71F1DA32C7F1DA700B5C737 /* Sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound1.mp3; sourceTree = "<group>"; };
+		B71F1DA62C7F7D3800B5C737 /* 10_Haptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10_Haptic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B71F1D9D2C7E53A700B5C737 /* 8_Masking.swift */,
 				B71F1D9F2C7E5E8500B5C737 /* 9_Sounds.swift */,
 				B71F1DA12C7F1D9700B5C737 /* Sounds */,
+				B71F1DA62C7F7D3800B5C737 /* 10_Haptic.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				B71F1D922C75FDB800B5C737 /* GeometryReaderWithScrollView.swift in Sources */,
 				B71F1D962C765A9500B5C737 /* AnimationDemo.swift in Sources */,
 				B71F1D8C2C74C00400B5C737 /* DragGestureDemo2.swift in Sources */,
+				B71F1DA72C7F7D3900B5C737 /* 10_Haptic.swift in Sources */,
 				B71F1D8A2C74B3AC00B5C737 /* DragGestureDemo.swift in Sources */,
 				B71F1D862C6FD45A00B5C737 /* MagnificationGestureDemo.swift in Sources */,
 				B71F1D9E2C7E53A700B5C737 /* 8_Masking.swift in Sources */,
