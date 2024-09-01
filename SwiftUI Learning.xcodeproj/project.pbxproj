@@ -25,6 +25,7 @@
 		B71F1DA52C7F1DA700B5C737 /* Sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B71F1DA32C7F1DA700B5C737 /* Sound1.mp3 */; };
 		B71F1DA72C7F7D3900B5C737 /* 10_Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DA62C7F7D3800B5C737 /* 10_Haptic.swift */; };
 		B71F1DA92C8258A500B5C737 /* 11_PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DA82C8258A500B5C737 /* 11_PushNotifications.swift */; };
+		B71F1DAB2C84D8CB00B5C737 /* 12_HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DAA2C84D8CB00B5C737 /* 12_HashableProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		B71F1DA32C7F1DA700B5C737 /* Sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound1.mp3; sourceTree = "<group>"; };
 		B71F1DA62C7F7D3800B5C737 /* 10_Haptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10_Haptic.swift; sourceTree = "<group>"; };
 		B71F1DA82C8258A500B5C737 /* 11_PushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_PushNotifications.swift; sourceTree = "<group>"; };
+		B71F1DAA2C84D8CB00B5C737 /* 12_HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_HashableProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				B71F1DA12C7F1D9700B5C737 /* Sounds */,
 				B71F1DA62C7F7D3800B5C737 /* 10_Haptic.swift */,
 				B71F1DA82C8258A500B5C737 /* 11_PushNotifications.swift */,
+				B71F1DAA2C84D8CB00B5C737 /* 12_HashableProtocol.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				B71F1DA02C7E5E8500B5C737 /* 9_Sounds.swift in Sources */,
 				B71F1D8E2C75E9B900B5C737 /* ScrollViewReaderDemo.swift in Sources */,
 				B71F1D7A2C6F642600B5C737 /* ContentView.swift in Sources */,
+				B71F1DAB2C84D8CB00B5C737 /* 12_HashableProtocol.swift in Sources */,
 				B71F1D782C6F642600B5C737 /* SwiftUI_LearningApp.swift in Sources */,
 				B71F1D922C75FDB800B5C737 /* GeometryReaderWithScrollView.swift in Sources */,
 				B71F1DA92C8258A500B5C737 /* 11_PushNotifications.swift in Sources */,
