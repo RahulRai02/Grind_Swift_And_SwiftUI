@@ -26,6 +26,7 @@
 		B71F1DA72C7F7D3900B5C737 /* 10_Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DA62C7F7D3800B5C737 /* 10_Haptic.swift */; };
 		B71F1DA92C8258A500B5C737 /* 11_PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DA82C8258A500B5C737 /* 11_PushNotifications.swift */; };
 		B71F1DAB2C84D8CB00B5C737 /* 12_HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DAA2C84D8CB00B5C737 /* 12_HashableProtocol.swift */; };
+		B71F1DAD2C85C54D00B5C737 /* 13_SortFilterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DAC2C85C54D00B5C737 /* 13_SortFilterMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		B71F1DA62C7F7D3800B5C737 /* 10_Haptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10_Haptic.swift; sourceTree = "<group>"; };
 		B71F1DA82C8258A500B5C737 /* 11_PushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_PushNotifications.swift; sourceTree = "<group>"; };
 		B71F1DAA2C84D8CB00B5C737 /* 12_HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_HashableProtocol.swift; sourceTree = "<group>"; };
+		B71F1DAC2C85C54D00B5C737 /* 13_SortFilterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13_SortFilterMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				B71F1DA62C7F7D3800B5C737 /* 10_Haptic.swift */,
 				B71F1DA82C8258A500B5C737 /* 11_PushNotifications.swift */,
 				B71F1DAA2C84D8CB00B5C737 /* 12_HashableProtocol.swift */,
+				B71F1DAC2C85C54D00B5C737 /* 13_SortFilterMap.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71F1DAD2C85C54D00B5C737 /* 13_SortFilterMap.swift in Sources */,
 				B71F1D882C74B0F000B5C737 /* RotationGestureDemo.swift in Sources */,
 				B71F1DA02C7E5E8500B5C737 /* 9_Sounds.swift in Sources */,
 				B71F1D8E2C75E9B900B5C737 /* ScrollViewReaderDemo.swift in Sources */,
