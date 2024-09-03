@@ -27,6 +27,8 @@
 		B71F1DA92C8258A500B5C737 /* 11_PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DA82C8258A500B5C737 /* 11_PushNotifications.swift */; };
 		B71F1DAB2C84D8CB00B5C737 /* 12_HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DAA2C84D8CB00B5C737 /* 12_HashableProtocol.swift */; };
 		B71F1DAD2C85C54D00B5C737 /* 13_SortFilterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DAC2C85C54D00B5C737 /* 13_SortFilterMap.swift */; };
+		B71F1DAF2C8722B500B5C737 /* 15_CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DAE2C8722B500B5C737 /* 15_CoreData.swift */; };
+		B71F1DB22C87245C00B5C737 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DB02C87245B00B5C737 /* FruitsContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		B71F1DA82C8258A500B5C737 /* 11_PushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_PushNotifications.swift; sourceTree = "<group>"; };
 		B71F1DAA2C84D8CB00B5C737 /* 12_HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_HashableProtocol.swift; sourceTree = "<group>"; };
 		B71F1DAC2C85C54D00B5C737 /* 13_SortFilterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13_SortFilterMap.swift; sourceTree = "<group>"; };
+		B71F1DAE2C8722B500B5C737 /* 15_CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_CoreData.swift; sourceTree = "<group>"; };
+		B71F1DB12C87245C00B5C737 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,11 +117,13 @@
 				B71F1D9D2C7E53A700B5C737 /* 8_Masking.swift */,
 				B71F1D9F2C7E5E8500B5C737 /* 9_Sounds.swift */,
 				B71F1D7B2C6F642800B5C737 /* Assets.xcassets */,
-				B71F1DA12C7F1D9700B5C737 /* Sounds */,
 				B71F1DA62C7F7D3800B5C737 /* 10_Haptic.swift */,
 				B71F1DA82C8258A500B5C737 /* 11_PushNotifications.swift */,
 				B71F1DAA2C84D8CB00B5C737 /* 12_HashableProtocol.swift */,
 				B71F1DAC2C85C54D00B5C737 /* 13_SortFilterMap.swift */,
+				B71F1DAE2C8722B500B5C737 /* 15_CoreData.swift */,
+				B71F1DB02C87245B00B5C737 /* FruitsContainer.xcdatamodeld */,
+				B71F1DA12C7F1D9700B5C737 /* Sounds */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -211,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71F1DB22C87245C00B5C737 /* FruitsContainer.xcdatamodeld in Sources */,
 				B71F1DAD2C85C54D00B5C737 /* 13_SortFilterMap.swift in Sources */,
 				B71F1D882C74B0F000B5C737 /* RotationGestureDemo.swift in Sources */,
 				B71F1DA02C7E5E8500B5C737 /* 9_Sounds.swift in Sources */,
@@ -221,6 +228,7 @@
 				B71F1D922C75FDB800B5C737 /* GeometryReaderWithScrollView.swift in Sources */,
 				B71F1DA92C8258A500B5C737 /* 11_PushNotifications.swift in Sources */,
 				B71F1D962C765A9500B5C737 /* AnimationDemo.swift in Sources */,
+				B71F1DAF2C8722B500B5C737 /* 15_CoreData.swift in Sources */,
 				B71F1D8C2C74C00400B5C737 /* DragGestureDemo2.swift in Sources */,
 				B71F1DA72C7F7D3900B5C737 /* 10_Haptic.swift in Sources */,
 				B71F1D8A2C74B3AC00B5C737 /* DragGestureDemo.swift in Sources */,
@@ -432,6 +440,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B71F1DB02C87245B00B5C737 /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B71F1DB12C87245C00B5C737 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = B71F1DB12C87245C00B5C737 /* FruitsContainer.xcdatamodel */;
+			name = FruitsContainer.xcdatamodeld;
+			path = "/Users/rahul/Documents/All Data/Apps/Practice SWIFTUI/SwiftUI Learning/SwiftUI Learning/Intermediate/FruitsContainer.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B71F1D6C2C6F642600B5C737 /* Project object */;
 }

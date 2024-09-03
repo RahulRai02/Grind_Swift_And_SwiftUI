@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_LearningApp: App {
     var body: some Scene {
         WindowGroup {
-            _2_HashableProtocol()
+            _5_CoreData()
         }
     }
 }
