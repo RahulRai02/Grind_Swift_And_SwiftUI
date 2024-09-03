@@ -8,6 +8,11 @@
 import SwiftUI
 import CoreData
 
+// Notes: 1. Always create a NSPersistantContainer
+//        2. Create a Data model and create entity, that you want to CRUD
+//        3. Create a fetch request using NSFetchRequest
+//        Thats it this is coredata....
+
 class CoreDataViewModel: ObservableObject{
     
     let container: NSPersistentContainer
