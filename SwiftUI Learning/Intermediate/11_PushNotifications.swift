@@ -31,7 +31,7 @@ class NotificationManager{
         content.title = "This is my first push notification from an app"
         content.subtitle = "This is an amazing experience to learn all this"
         content.sound = .default
-        content.badge = NSNumber(value: UIApplication.shared.applicationIconBadgeNumber + 1)
+//       content.badge = NSNumber(value: UIApplication.shared.applicationIconBadgeNumber + 1)
         
         // We can schedule notification based on 3 factors:-
         // 1. Time  2. Calender     3. Location based (Suppose you enter a particular shop, if we mark that coordinates, we could send a notification when the user enters the particular area....)
@@ -84,9 +84,9 @@ struct _1_PushNotifications: View {
                 
             }
         }
-        .onAppear{
-            UIApplication.shared.applicationIconBadgeNumber = 0
-        }
+//        .onAppear{
+//            UIApplication.shared.applicationIconBadgeNumber = 0
+//        }
     }
 }
 
