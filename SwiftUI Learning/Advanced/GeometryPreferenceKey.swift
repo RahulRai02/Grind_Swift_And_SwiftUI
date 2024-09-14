@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// Main aim was to make the frame of the text rextangle the same size as the middle rectangle below....
+
 struct GeometryPreferenceKey: View {
     @State private var rectSize: CGSize = .zero
     var body: some View {

@@ -31,6 +31,7 @@
 		B71F1DB22C87245C00B5C737 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DB02C87245B00B5C737 /* FruitsContainer.xcdatamodeld */; };
 		B7202EAD2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EAC2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift */; };
 		B7202EAF2C8F55E900B4C490 /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EAE2C8F55E900B4C490 /* GeometryPreferenceKey.swift */; };
+		B7202EB12C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EB02C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		B71F1DB12C87245C00B5C737 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		B7202EAC2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyDemo.swift; sourceTree = "<group>"; };
 		B7202EAE2C8F55E900B4C490 /* GeometryPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKey.swift; sourceTree = "<group>"; };
+		B7202EB02C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			children = (
 				B7202EAC2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift */,
 				B7202EAE2C8F55E900B4C490 /* GeometryPreferenceKey.swift */,
+				B7202EB02C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				B71F1DA72C7F7D3900B5C737 /* 10_Haptic.swift in Sources */,
 				B71F1D8A2C74B3AC00B5C737 /* DragGestureDemo.swift in Sources */,
 				B71F1D862C6FD45A00B5C737 /* MagnificationGestureDemo.swift in Sources */,
+				B7202EB12C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift in Sources */,
 				B71F1D9E2C7E53A700B5C737 /* 8_Masking.swift in Sources */,
 				B71F1D902C75FAAB00B5C737 /* GeometryReaderDemo.swift in Sources */,
 			);
