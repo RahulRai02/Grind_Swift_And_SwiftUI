@@ -32,6 +32,11 @@
 		B7202EAD2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EAC2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift */; };
 		B7202EAF2C8F55E900B4C490 /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EAE2C8F55E900B4C490 /* GeometryPreferenceKey.swift */; };
 		B7202EB12C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EB02C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift */; };
+		B7202EB42C99ADE700B4C490 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EB32C99ADE700B4C490 /* AppTabBarView.swift */; };
+		B7202EB62C99AFC700B4C490 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EB52C99AFC700B4C490 /* CustomTabBarView.swift */; };
+		B7202EB82C9A075B00B4C490 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EB72C9A075B00B4C490 /* CustomTabBarContainerView.swift */; };
+		B7202EBA2C9AC7CA00B4C490 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EB92C9AC7CA00B4C490 /* TabBarItemsPreferenceKey.swift */; };
+		B7202EBC2C9AD51500B4C490 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EBB2C9AD51500B4C490 /* TabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +66,11 @@
 		B7202EAC2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyDemo.swift; sourceTree = "<group>"; };
 		B7202EAE2C8F55E900B4C490 /* GeometryPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKey.swift; sourceTree = "<group>"; };
 		B7202EB02C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKey.swift; sourceTree = "<group>"; };
+		B7202EB32C99ADE700B4C490 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		B7202EB52C99AFC700B4C490 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		B7202EB72C9A075B00B4C490 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		B7202EB92C9AC7CA00B4C490 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		B7202EBB2C9AD51500B4C490 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,11 +165,24 @@
 		B7202EAB2C8F4FCD00B4C490 /* Advanced */ = {
 			isa = PBXGroup;
 			children = (
+				B7202EB22C99ADCC00B4C490 /* Tab Bar */,
 				B7202EAC2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift */,
 				B7202EAE2C8F55E900B4C490 /* GeometryPreferenceKey.swift */,
 				B7202EB02C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift */,
 			);
 			path = Advanced;
+			sourceTree = "<group>";
+		};
+		B7202EB22C99ADCC00B4C490 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				B7202EB32C99ADE700B4C490 /* AppTabBarView.swift */,
+				B7202EB52C99AFC700B4C490 /* CustomTabBarView.swift */,
+				B7202EB72C9A075B00B4C490 /* CustomTabBarContainerView.swift */,
+				B7202EB92C9AC7CA00B4C490 /* TabBarItemsPreferenceKey.swift */,
+				B7202EBB2C9AD51500B4C490 /* TabBarItem.swift */,
+			);
+			path = "Tab Bar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,17 +257,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7202EB42C99ADE700B4C490 /* AppTabBarView.swift in Sources */,
 				B71F1DB22C87245C00B5C737 /* FruitsContainer.xcdatamodeld in Sources */,
 				B71F1DAD2C85C54D00B5C737 /* 13_SortFilterMap.swift in Sources */,
 				B71F1D882C74B0F000B5C737 /* RotationGestureDemo.swift in Sources */,
 				B71F1DA02C7E5E8500B5C737 /* 9_Sounds.swift in Sources */,
 				B71F1D8E2C75E9B900B5C737 /* ScrollViewReaderDemo.swift in Sources */,
+				B7202EB62C99AFC700B4C490 /* CustomTabBarView.swift in Sources */,
+				B7202EB82C9A075B00B4C490 /* CustomTabBarContainerView.swift in Sources */,
 				B71F1D7A2C6F642600B5C737 /* ContentView.swift in Sources */,
 				B71F1DAB2C84D8CB00B5C737 /* 12_HashableProtocol.swift in Sources */,
 				B71F1D782C6F642600B5C737 /* SwiftUI_LearningApp.swift in Sources */,
 				B7202EAD2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift in Sources */,
 				B71F1D922C75FDB800B5C737 /* GeometryReaderWithScrollView.swift in Sources */,
 				B7202EAF2C8F55E900B4C490 /* GeometryPreferenceKey.swift in Sources */,
+				B7202EBA2C9AC7CA00B4C490 /* TabBarItemsPreferenceKey.swift in Sources */,
 				B71F1DA92C8258A500B5C737 /* 11_PushNotifications.swift in Sources */,
 				B71F1D962C765A9500B5C737 /* AnimationDemo.swift in Sources */,
 				B71F1DAF2C8722B500B5C737 /* 15_CoreData.swift in Sources */,
@@ -252,6 +279,7 @@
 				B71F1DA72C7F7D3900B5C737 /* 10_Haptic.swift in Sources */,
 				B71F1D8A2C74B3AC00B5C737 /* DragGestureDemo.swift in Sources */,
 				B71F1D862C6FD45A00B5C737 /* MagnificationGestureDemo.swift in Sources */,
+				B7202EBC2C9AD51500B4C490 /* TabBarItem.swift in Sources */,
 				B7202EB12C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift in Sources */,
 				B71F1D9E2C7E53A700B5C737 /* 8_Masking.swift in Sources */,
 				B71F1D902C75FAAB00B5C737 /* GeometryReaderDemo.swift in Sources */,
