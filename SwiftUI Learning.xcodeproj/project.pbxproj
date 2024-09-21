@@ -37,6 +37,12 @@
 		B7202EB82C9A075B00B4C490 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EB72C9A075B00B4C490 /* CustomTabBarContainerView.swift */; };
 		B7202EBA2C9AC7CA00B4C490 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EB92C9AC7CA00B4C490 /* TabBarItemsPreferenceKey.swift */; };
 		B7202EBC2C9AD51500B4C490 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EBB2C9AD51500B4C490 /* TabBarItem.swift */; };
+		B7202EBF2C9B2D1C00B4C490 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EBE2C9B2D1C00B4C490 /* AppNavBarView.swift */; };
+		B7202EC12C9DC7E900B4C490 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EC02C9DC7E900B4C490 /* CustomNavBarView.swift */; };
+		B7202EC32C9DF58700B4C490 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EC22C9DF58700B4C490 /* CustomNavBarContainerView.swift */; };
+		B7202EC52C9ED68C00B4C490 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EC42C9ED68C00B4C490 /* CustomNavView.swift */; };
+		B7202EC72C9EDA1600B4C490 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EC62C9EDA1600B4C490 /* CustomNavLink.swift */; };
+		B7202EC92C9EE46800B4C490 /* CustomNavBarPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EC82C9EE46800B4C490 /* CustomNavBarPreferenceKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +77,12 @@
 		B7202EB72C9A075B00B4C490 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		B7202EB92C9AC7CA00B4C490 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		B7202EBB2C9AD51500B4C490 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		B7202EBE2C9B2D1C00B4C490 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		B7202EC02C9DC7E900B4C490 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		B7202EC22C9DF58700B4C490 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		B7202EC42C9ED68C00B4C490 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		B7202EC62C9EDA1600B4C490 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		B7202EC82C9EE46800B4C490 /* CustomNavBarPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +177,7 @@
 		B7202EAB2C8F4FCD00B4C490 /* Advanced */ = {
 			isa = PBXGroup;
 			children = (
+				B7202EBD2C9B2D0700B4C490 /* NavBar */,
 				B7202EB22C99ADCC00B4C490 /* Tab Bar */,
 				B7202EAC2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift */,
 				B7202EAE2C8F55E900B4C490 /* GeometryPreferenceKey.swift */,
@@ -183,6 +196,19 @@
 				B7202EBB2C9AD51500B4C490 /* TabBarItem.swift */,
 			);
 			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		B7202EBD2C9B2D0700B4C490 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				B7202EBE2C9B2D1C00B4C490 /* AppNavBarView.swift */,
+				B7202EC42C9ED68C00B4C490 /* CustomNavView.swift */,
+				B7202EC02C9DC7E900B4C490 /* CustomNavBarView.swift */,
+				B7202EC22C9DF58700B4C490 /* CustomNavBarContainerView.swift */,
+				B7202EC62C9EDA1600B4C490 /* CustomNavLink.swift */,
+				B7202EC82C9EE46800B4C490 /* CustomNavBarPreferenceKey.swift */,
+			);
+			path = NavBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +285,9 @@
 			files = (
 				B7202EB42C99ADE700B4C490 /* AppTabBarView.swift in Sources */,
 				B71F1DB22C87245C00B5C737 /* FruitsContainer.xcdatamodeld in Sources */,
+				B7202EBF2C9B2D1C00B4C490 /* AppNavBarView.swift in Sources */,
 				B71F1DAD2C85C54D00B5C737 /* 13_SortFilterMap.swift in Sources */,
+				B7202EC32C9DF58700B4C490 /* CustomNavBarContainerView.swift in Sources */,
 				B71F1D882C74B0F000B5C737 /* RotationGestureDemo.swift in Sources */,
 				B71F1DA02C7E5E8500B5C737 /* 9_Sounds.swift in Sources */,
 				B71F1D8E2C75E9B900B5C737 /* ScrollViewReaderDemo.swift in Sources */,
@@ -268,19 +296,23 @@
 				B71F1D7A2C6F642600B5C737 /* ContentView.swift in Sources */,
 				B71F1DAB2C84D8CB00B5C737 /* 12_HashableProtocol.swift in Sources */,
 				B71F1D782C6F642600B5C737 /* SwiftUI_LearningApp.swift in Sources */,
+				B7202EC72C9EDA1600B4C490 /* CustomNavLink.swift in Sources */,
 				B7202EAD2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift in Sources */,
 				B71F1D922C75FDB800B5C737 /* GeometryReaderWithScrollView.swift in Sources */,
 				B7202EAF2C8F55E900B4C490 /* GeometryPreferenceKey.swift in Sources */,
 				B7202EBA2C9AC7CA00B4C490 /* TabBarItemsPreferenceKey.swift in Sources */,
+				B7202EC52C9ED68C00B4C490 /* CustomNavView.swift in Sources */,
 				B71F1DA92C8258A500B5C737 /* 11_PushNotifications.swift in Sources */,
 				B71F1D962C765A9500B5C737 /* AnimationDemo.swift in Sources */,
 				B71F1DAF2C8722B500B5C737 /* 15_CoreData.swift in Sources */,
 				B71F1D8C2C74C00400B5C737 /* DragGestureDemo2.swift in Sources */,
+				B7202EC92C9EE46800B4C490 /* CustomNavBarPreferenceKey.swift in Sources */,
 				B71F1DA72C7F7D3900B5C737 /* 10_Haptic.swift in Sources */,
 				B71F1D8A2C74B3AC00B5C737 /* DragGestureDemo.swift in Sources */,
 				B71F1D862C6FD45A00B5C737 /* MagnificationGestureDemo.swift in Sources */,
 				B7202EBC2C9AD51500B4C490 /* TabBarItem.swift in Sources */,
 				B7202EB12C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift in Sources */,
+				B7202EC12C9DC7E900B4C490 /* CustomNavBarView.swift in Sources */,
 				B71F1D9E2C7E53A700B5C737 /* 8_Masking.swift in Sources */,
 				B71F1D902C75FAAB00B5C737 /* GeometryReaderDemo.swift in Sources */,
 			);
