@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7058B262CB173210098CC44 /* UIViewControllerPrc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7058B252CB173210098CC44 /* UIViewControllerPrc.swift */; };
+		B7058B282CB19CD60098CC44 /* ProtocolsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7058B272CB19CD60098CC44 /* ProtocolsDemo.swift */; };
 		B71F1D782C6F642600B5C737 /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1D772C6F642600B5C737 /* SwiftUI_LearningApp.swift */; };
 		B71F1D7A2C6F642600B5C737 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1D792C6F642600B5C737 /* ContentView.swift */; };
 		B71F1D7C2C6F642800B5C737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71F1D7B2C6F642800B5C737 /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7058B252CB173210098CC44 /* UIViewControllerPrc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerPrc.swift; sourceTree = "<group>"; };
+		B7058B272CB19CD60098CC44 /* ProtocolsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsDemo.swift; sourceTree = "<group>"; };
 		B71F1D742C6F642600B5C737 /* SwiftUI Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F1D772C6F642600B5C737 /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
 		B71F1D792C6F642600B5C737 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 				B7202EAE2C8F55E900B4C490 /* GeometryPreferenceKey.swift */,
 				B7202EB02C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift */,
 				B799913D2CB1406A000C392E /* UIViewRepresentablePrc.swift */,
+				B7058B252CB173210098CC44 /* UIViewControllerPrc.swift */,
+				B7058B272CB19CD60098CC44 /* ProtocolsDemo.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 				B7202EBF2C9B2D1C00B4C490 /* AppNavBarView.swift in Sources */,
 				B71F1DAD2C85C54D00B5C737 /* 13_SortFilterMap.swift in Sources */,
 				B7202EC32C9DF58700B4C490 /* CustomNavBarContainerView.swift in Sources */,
+				B7058B282CB19CD60098CC44 /* ProtocolsDemo.swift in Sources */,
 				B77FB41B2CAF0F2400DFC36C /* ImageAsyncAwait.swift in Sources */,
 				B71F1D882C74B0F000B5C737 /* RotationGestureDemo.swift in Sources */,
 				B71F1DA02C7E5E8500B5C737 /* 9_Sounds.swift in Sources */,
@@ -330,6 +337,7 @@
 				B71F1D8A2C74B3AC00B5C737 /* DragGestureDemo.swift in Sources */,
 				B71F1D862C6FD45A00B5C737 /* MagnificationGestureDemo.swift in Sources */,
 				B7202EBC2C9AD51500B4C490 /* TabBarItem.swift in Sources */,
+				B7058B262CB173210098CC44 /* UIViewControllerPrc.swift in Sources */,
 				B7202EB12C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift in Sources */,
 				B7202EC12C9DC7E900B4C490 /* CustomNavBarView.swift in Sources */,
 				B77FB4192CAEFA0800DFC36C /* DoCatchTryThrows.swift in Sources */,
