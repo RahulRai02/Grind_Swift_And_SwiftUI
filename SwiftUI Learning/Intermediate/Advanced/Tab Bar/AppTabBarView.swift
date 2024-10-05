@@ -31,33 +31,6 @@ struct AppTabBarView: View {
 }
 
 
-
-
-//extension AppTabBarView {
-//    private var defaultTabView: some View {
-//        TabView(selection: $selection){
-//            Color.red
-//                .tabItem {
-//                    Image(systemName: "house")
-//                    Text("Home")
-//                }
-//            
-//            Color.green
-//                .tabItem {
-//                    Image(systemName: "heart")
-//                    Text("Favorites")
-//                }
-//            
-//            Color.blue
-//                .tabItem {
-//                    Image(systemName: "person")
-//                    Text("Profile")
-//                }
-//        }
-//    }
-//}
-
-
 struct AppTabBarView_Previews : PreviewProvider {
     static let tabs: [TabBarItem] = [
         .home, .favorites, .profile
