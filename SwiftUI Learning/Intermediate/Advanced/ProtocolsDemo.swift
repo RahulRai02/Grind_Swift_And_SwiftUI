@@ -99,5 +99,5 @@ struct ProtocolsDemo: View {
 }
 
 #Preview {
-    ProtocolsDemo(colorTheme: DefaultColorTheme(), dataSource: DefaultDataSource())
+    ProtocolsDemo(colorTheme: DefaultColorTheme(), dataSource: DefaultDataSource())    
 }
