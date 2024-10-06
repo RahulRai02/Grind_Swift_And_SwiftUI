@@ -10,6 +10,7 @@
 		B7058B262CB173210098CC44 /* UIViewControllerPrc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7058B252CB173210098CC44 /* UIViewControllerPrc.swift */; };
 		B7058B282CB19CD60098CC44 /* ProtocolsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7058B272CB19CD60098CC44 /* ProtocolsDemo.swift */; };
 		B7058B2A2CB2A4630098CC44 /* 20_EscapingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7058B292CB2A4630098CC44 /* 20_EscapingBootCamp.swift */; };
+		B7058B2C2CB334550098CC44 /* 3_AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7058B2B2CB334550098CC44 /* 3_AsyncAwait.swift */; };
 		B71F1D782C6F642600B5C737 /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1D772C6F642600B5C737 /* SwiftUI_LearningApp.swift */; };
 		B71F1D7A2C6F642600B5C737 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1D792C6F642600B5C737 /* ContentView.swift */; };
 		B71F1D7C2C6F642800B5C737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71F1D7B2C6F642800B5C737 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		B7058B252CB173210098CC44 /* UIViewControllerPrc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerPrc.swift; sourceTree = "<group>"; };
 		B7058B272CB19CD60098CC44 /* ProtocolsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsDemo.swift; sourceTree = "<group>"; };
 		B7058B292CB2A4630098CC44 /* 20_EscapingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20_EscapingBootCamp.swift; sourceTree = "<group>"; };
+		B7058B2B2CB334550098CC44 /* 3_AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_AsyncAwait.swift; sourceTree = "<group>"; };
 		B71F1D742C6F642600B5C737 /* SwiftUI Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F1D772C6F642600B5C737 /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
 		B71F1D792C6F642600B5C737 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 			children = (
 				B77FB4182CAEFA0800DFC36C /* DoCatchTryThrows.swift */,
 				B77FB41A2CAF0F2400DFC36C /* ImageAsyncAwait.swift */,
+				B7058B2B2CB334550098CC44 /* 3_AsyncAwait.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				B71F1D922C75FDB800B5C737 /* GeometryReaderWithScrollView.swift in Sources */,
 				B7202EAF2C8F55E900B4C490 /* GeometryPreferenceKey.swift in Sources */,
 				B7202EBA2C9AC7CA00B4C490 /* TabBarItemsPreferenceKey.swift in Sources */,
+				B7058B2C2CB334550098CC44 /* 3_AsyncAwait.swift in Sources */,
 				B7058B2A2CB2A4630098CC44 /* 20_EscapingBootCamp.swift in Sources */,
 				B7202EC52C9ED68C00B4C490 /* CustomNavView.swift in Sources */,
 				B71F1DA92C8258A500B5C737 /* 11_PushNotifications.swift in Sources */,
