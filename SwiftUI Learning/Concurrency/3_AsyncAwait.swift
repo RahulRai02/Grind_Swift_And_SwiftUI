@@ -39,25 +39,25 @@ class AsyncAwaitViewModel: ObservableObject{
     }
     
     //WAY2
-    func addAuthor1() async{
-        let author1 = "Author1: \(Thread.current)"
-        self.dataArray.append(author1)
-        
-        try? await Task.sleep(nanoseconds: 4_000_000_000)
-        
-        let author2 = "Author2: \(Thread.current)"
-        
-        await MainActor.run {
-            self.dataArray.append(author2)
-            
-            let author3 = "Author3: \(Thread.current)"
-            self.dataArray.append(author3)
-        }
-        
-        
+//    func addAuthor1() async{
+//        let author1 = "Author1: \(Thread.current)"
+//        self.dataArray.append(author1)
+//        
+//        try? await Task.sleep(nanoseconds: 4_000_000_000)
+//        
+//        let author2 = "Author2: \(Thread.current)"
+//        
+//        await MainActor.run {
+//            self.dataArray.append(author2)
+//            
+//            let author3 = "Author3: \(Thread.current)"
+//            self.dataArray.append(author3)
+//        }
         
         
-    }
+        
+        
+//    }
 }
 
 struct __AsyncAwait: View {
@@ -78,7 +78,7 @@ struct __AsyncAwait: View {
             
             // WAY2
             Task{
-                await viewModel.addAuthor1()
+//                await viewModel.addAuthor1()
             }
         }
     }

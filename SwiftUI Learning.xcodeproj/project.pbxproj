@@ -11,6 +11,7 @@
 		B7058B282CB19CD60098CC44 /* ProtocolsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7058B272CB19CD60098CC44 /* ProtocolsDemo.swift */; };
 		B7058B2A2CB2A4630098CC44 /* 20_EscapingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7058B292CB2A4630098CC44 /* 20_EscapingBootCamp.swift */; };
 		B7058B2C2CB334550098CC44 /* 3_AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7058B2B2CB334550098CC44 /* 3_AsyncAwait.swift */; };
+		B7058B2E2CB3F10E0098CC44 /* 22_DownloadJsonUsingEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7058B2D2CB3F10E0098CC44 /* 22_DownloadJsonUsingEscaping.swift */; };
 		B71F1D782C6F642600B5C737 /* SwiftUI_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1D772C6F642600B5C737 /* SwiftUI_LearningApp.swift */; };
 		B71F1D7A2C6F642600B5C737 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1D792C6F642600B5C737 /* ContentView.swift */; };
 		B71F1D7C2C6F642800B5C737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71F1D7B2C6F642800B5C737 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		B7058B272CB19CD60098CC44 /* ProtocolsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsDemo.swift; sourceTree = "<group>"; };
 		B7058B292CB2A4630098CC44 /* 20_EscapingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20_EscapingBootCamp.swift; sourceTree = "<group>"; };
 		B7058B2B2CB334550098CC44 /* 3_AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_AsyncAwait.swift; sourceTree = "<group>"; };
+		B7058B2D2CB3F10E0098CC44 /* 22_DownloadJsonUsingEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22_DownloadJsonUsingEscaping.swift; sourceTree = "<group>"; };
 		B71F1D742C6F642600B5C737 /* SwiftUI Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F1D772C6F642600B5C737 /* SwiftUI_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningApp.swift; sourceTree = "<group>"; };
 		B71F1D792C6F642600B5C737 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				B71F1DAC2C85C54D00B5C737 /* 13_SortFilterMap.swift */,
 				B71F1DAE2C8722B500B5C737 /* 15_CoreData.swift */,
 				B7058B292CB2A4630098CC44 /* 20_EscapingBootCamp.swift */,
+				B7058B2D2CB3F10E0098CC44 /* 22_DownloadJsonUsingEscaping.swift */,
 				B71F1DB02C87245B00B5C737 /* FruitsContainer.xcdatamodeld */,
 				B7202EAB2C8F4FCD00B4C490 /* Advanced */,
 				B71F1DA12C7F1D9700B5C737 /* Sounds */,
@@ -314,6 +317,7 @@
 			files = (
 				B7202EB42C99ADE700B4C490 /* AppTabBarView.swift in Sources */,
 				B71F1DB22C87245C00B5C737 /* FruitsContainer.xcdatamodeld in Sources */,
+				B7058B2E2CB3F10E0098CC44 /* 22_DownloadJsonUsingEscaping.swift in Sources */,
 				B7202EBF2C9B2D1C00B4C490 /* AppNavBarView.swift in Sources */,
 				B71F1DAD2C85C54D00B5C737 /* 13_SortFilterMap.swift in Sources */,
 				B7202EC32C9DF58700B4C490 /* CustomNavBarContainerView.swift in Sources */,
