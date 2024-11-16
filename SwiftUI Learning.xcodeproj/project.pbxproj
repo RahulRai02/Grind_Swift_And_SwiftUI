@@ -53,6 +53,7 @@
 		B77FB4192CAEFA0800DFC36C /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77FB4182CAEFA0800DFC36C /* DoCatchTryThrows.swift */; };
 		B77FB41B2CAF0F2400DFC36C /* ImageAsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77FB41A2CAF0F2400DFC36C /* ImageAsyncAwait.swift */; };
 		B799913E2CB1406A000C392E /* UIViewRepresentablePrc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B799913D2CB1406A000C392E /* UIViewRepresentablePrc.swift */; };
+		B7D197AF2CE88CB5009BEFE6 /* TimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D197AE2CE88CB5009BEFE6 /* TimerDemo.swift */; };
 		B7EB5D6A2CDA84F400BE7159 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB5D692CDA84F400BE7159 /* ApiManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +105,7 @@
 		B77FB4182CAEFA0800DFC36C /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
 		B77FB41A2CAF0F2400DFC36C /* ImageAsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsyncAwait.swift; sourceTree = "<group>"; };
 		B799913D2CB1406A000C392E /* UIViewRepresentablePrc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentablePrc.swift; sourceTree = "<group>"; };
+		B7D197AE2CE88CB5009BEFE6 /* TimerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDemo.swift; sourceTree = "<group>"; };
 		B7EB5D692CDA84F400BE7159 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +182,7 @@
 				B7058B2F2CB43D230098CC44 /* 23_DownloadWithCombine.swift */,
 				B71F1DB02C87245B00B5C737 /* FruitsContainer.xcdatamodeld */,
 				B71F1DA12C7F1D9700B5C737 /* Sounds */,
+				B7D197AE2CE88CB5009BEFE6 /* TimerDemo.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D197AF2CE88CB5009BEFE6 /* TimerDemo.swift in Sources */,
 				B7202EB42C99ADE700B4C490 /* AppTabBarView.swift in Sources */,
 				B71F1DB22C87245C00B5C737 /* FruitsContainer.xcdatamodeld in Sources */,
 				B7058B2E2CB3F10E0098CC44 /* 22_DownloadJsonUsingEscaping.swift in Sources */,
