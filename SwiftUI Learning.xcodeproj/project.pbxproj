@@ -55,6 +55,7 @@
 		B799913E2CB1406A000C392E /* UIViewRepresentablePrc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B799913D2CB1406A000C392E /* UIViewRepresentablePrc.swift */; };
 		B7D197AF2CE88CB5009BEFE6 /* TimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D197AE2CE88CB5009BEFE6 /* TimerDemo.swift */; };
 		B7EB5D6A2CDA84F400BE7159 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB5D692CDA84F400BE7159 /* ApiManager.swift */; };
+		B7EE45F22D25734D00E29381 /* 8_StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EE45F12D25734D00E29381 /* 8_StructClassActor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +108,7 @@
 		B799913D2CB1406A000C392E /* UIViewRepresentablePrc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentablePrc.swift; sourceTree = "<group>"; };
 		B7D197AE2CE88CB5009BEFE6 /* TimerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDemo.swift; sourceTree = "<group>"; };
 		B7EB5D692CDA84F400BE7159 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		B7EE45F12D25734D00E29381 /* 8_StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_StructClassActor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,11 +141,11 @@
 		B71F1D762C6F642600B5C737 /* SwiftUI Learning */ = {
 			isa = PBXGroup;
 			children = (
+				B71F1D772C6F642600B5C737 /* SwiftUI_LearningApp.swift */,
+				B71F1D792C6F642600B5C737 /* ContentView.swift */,
 				B7EB5D622CDA7AE400BE7159 /* Helpers */,
 				B7202EAB2C8F4FCD00B4C490 /* Advanced */,
 				B77FB4172CAEF6AB00DFC36C /* Concurrency */,
-				B71F1D772C6F642600B5C737 /* SwiftUI_LearningApp.swift */,
-				B71F1D792C6F642600B5C737 /* ContentView.swift */,
 				B71F1D942C760C2C00B5C737 /* Beginner */,
 				B71F1D932C760C1B00B5C737 /* Intermediate */,
 				B71F1D7D2C6F642800B5C737 /* Preview Content */,
@@ -250,6 +252,7 @@
 				B77FB4182CAEFA0800DFC36C /* DoCatchTryThrows.swift */,
 				B77FB41A2CAF0F2400DFC36C /* ImageAsyncAwait.swift */,
 				B7058B2B2CB334550098CC44 /* 3_AsyncAwait.swift */,
+				B7EE45F12D25734D00E29381 /* 8_StructClassActor.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				B71F1D8E2C75E9B900B5C737 /* ScrollViewReaderDemo.swift in Sources */,
 				B7202EB62C99AFC700B4C490 /* CustomTabBarView.swift in Sources */,
 				B7202EB82C9A075B00B4C490 /* CustomTabBarContainerView.swift in Sources */,
+				B7EE45F22D25734D00E29381 /* 8_StructClassActor.swift in Sources */,
 				B71F1D7A2C6F642600B5C737 /* ContentView.swift in Sources */,
 				B71F1DAB2C84D8CB00B5C737 /* 12_HashableProtocol.swift in Sources */,
 				B71F1D782C6F642600B5C737 /* SwiftUI_LearningApp.swift in Sources */,

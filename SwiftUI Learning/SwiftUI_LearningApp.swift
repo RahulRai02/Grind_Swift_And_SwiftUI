@@ -12,7 +12,8 @@ struct SwiftUI_LearningApp: App {
     var body: some Scene {
         WindowGroup {
 //            CoffeeOrderListScreen()
-            ProductView()
+//            ProductView()
+            __StructClassActor()
         }
     }
 }
