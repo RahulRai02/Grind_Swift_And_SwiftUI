@@ -56,6 +56,7 @@
 		B7D197AF2CE88CB5009BEFE6 /* TimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D197AE2CE88CB5009BEFE6 /* TimerDemo.swift */; };
 		B7EB5D6A2CDA84F400BE7159 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB5D692CDA84F400BE7159 /* ApiManager.swift */; };
 		B7EE45F22D25734D00E29381 /* 8_StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EE45F12D25734D00E29381 /* 8_StructClassActor.swift */; };
+		B7EE45F72D27C3B800E29381 /* 4_MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EE45F62D27C3B800E29381 /* 4_MatchedGeometryEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +110,7 @@
 		B7D197AE2CE88CB5009BEFE6 /* TimerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDemo.swift; sourceTree = "<group>"; };
 		B7EB5D692CDA84F400BE7159 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		B7EE45F12D25734D00E29381 /* 8_StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_StructClassActor.swift; sourceTree = "<group>"; };
+		B7EE45F62D27C3B800E29381 /* 4_MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				B799913D2CB1406A000C392E /* UIViewRepresentablePrc.swift */,
 				B7058B252CB173210098CC44 /* UIViewControllerPrc.swift */,
 				B7058B272CB19CD60098CC44 /* ProtocolsDemo.swift */,
+				B7EE45F62D27C3B800E29381 /* 4_MatchedGeometryEffect.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				B71F1DA72C7F7D3900B5C737 /* 10_Haptic.swift in Sources */,
 				B71F1D8A2C74B3AC00B5C737 /* DragGestureDemo.swift in Sources */,
 				B71F1D862C6FD45A00B5C737 /* MagnificationGestureDemo.swift in Sources */,
+				B7EE45F72D27C3B800E29381 /* 4_MatchedGeometryEffect.swift in Sources */,
 				B7202EBC2C9AD51500B4C490 /* TabBarItem.swift in Sources */,
 				B7058B262CB173210098CC44 /* UIViewControllerPrc.swift in Sources */,
 				B7202EB12C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift in Sources */,
