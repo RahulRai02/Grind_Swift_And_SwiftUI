@@ -1,6 +1,6 @@
 # SwiftUI Learning
 
-This repository contains a collection of SwiftUI projects and demos that showcase different levels of complexity, ranging from beginner to advanced topics. Each section is organized with practical examples to help you learn and apply SwiftUI concepts effectively.
+This repository contains a collection of SwiftUI projects,demos, tutorials that involves SwiftUI. Each section is organized with practical examples that help to learn and apply SwiftUI concepts.
 
 ## Project Overview
 
