@@ -85,26 +85,7 @@ class _2_DownloadWithCombineViewModel: ObservableObject {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {
             return
         }
-        // COMBINE Analogy and description
-        /*
-        // Analogy
-        // 1. Sign up for monthly subscription for package to be delivered
-        // 2. The company would make the package behind the scene.
-        // 3. Receive the pacakge at your front door
-        // 4. Make sure the box is not damaged
-        // 5. Open and make sure the item is correct
-        // 6. Use the item !!!!
-        // 7. Cancellable at any time
-        
-        
-        // 1. Create the publisher
-        // 2. Subscribe the publisher on background thread...
-        // 3. receive on main thread
-        // 4. tryMap (Check the data is good)
-        // 5. decode (Decode data into PostNModel)
-        // 6. Sink (Put the item into our app)
-        // 7. Store (Cancellable subscription if needed
-        */
+
         
         URLSession.shared.dataTaskPublisher(for: url)
             .subscribe(on: DispatchQueue.global(qos: .background))

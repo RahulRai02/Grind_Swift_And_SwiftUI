@@ -13,7 +13,8 @@ struct SwiftUI_LearningApp: App {
         WindowGroup {
 //            CoffeeOrderListScreen()
 //            ProductView()
-            __StructClassActor()
+//            __StructClassActor()
+            DownloadDataFromNet()
         }
     }
 }

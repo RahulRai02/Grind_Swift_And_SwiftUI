@@ -57,6 +57,7 @@
 		B7EB5D6A2CDA84F400BE7159 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB5D692CDA84F400BE7159 /* ApiManager.swift */; };
 		B7EE45F22D25734D00E29381 /* 8_StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EE45F12D25734D00E29381 /* 8_StructClassActor.swift */; };
 		B7EE45F72D27C3B800E29381 /* 4_MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EE45F62D27C3B800E29381 /* 4_MatchedGeometryEffect.swift */; };
+		B7EE46052D2A8B9200E29381 /* DownloadDataFromNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EE46042D2A8B9200E29381 /* DownloadDataFromNet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +114,8 @@
 		B7EE45F62D27C3B800E29381 /* 4_MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		B7EE45FD2D2A578500E29381 /* AutomaticReferenceCounting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AutomaticReferenceCounting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B7EE45FE2D2A6EF700E29381 /* WeakVsUnowned.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WeakVsUnowned.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B7EE46022D2A792600E29381 /* UnwrappingOptionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UnwrappingOptionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B7EE46042D2A8B9200E29381 /* DownloadDataFromNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadDataFromNet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,13 +149,13 @@
 			isa = PBXGroup;
 			children = (
 				B71F1D772C6F642600B5C737 /* SwiftUI_LearningApp.swift */,
-				B71F1D792C6F642600B5C737 /* ContentView.swift */,
 				B71F1D942C760C2C00B5C737 /* Beginner */,
 				B71F1D932C760C1B00B5C737 /* Intermediate */,
 				B7202EAB2C8F4FCD00B4C490 /* Advanced */,
 				B7EB5D622CDA7AE400BE7159 /* Helpers */,
 				B77FB4172CAEF6AB00DFC36C /* Concurrency */,
 				B7EE45FC2D2A575E00E29381 /* MemoryManagement */,
+				B7EE45FF2D2A785900E29381 /* iOS Basics */,
 				B71F1D7D2C6F642800B5C737 /* Preview Content */,
 			);
 			path = "SwiftUI Learning";
@@ -197,6 +200,7 @@
 		B71F1D942C760C2C00B5C737 /* Beginner */ = {
 			isa = PBXGroup;
 			children = (
+				B71F1D792C6F642600B5C737 /* ContentView.swift */,
 				B71F1D952C765A9500B5C737 /* AnimationDemo.swift */,
 			);
 			path = Beginner;
@@ -281,6 +285,23 @@
 			path = MemoryManagement;
 			sourceTree = "<group>";
 		};
+		B7EE45FF2D2A785900E29381 /* iOS Basics */ = {
+			isa = PBXGroup;
+			children = (
+				B7EE46032D2A895100E29381 /* Downloading */,
+				B7EE46022D2A792600E29381 /* UnwrappingOptionals.playground */,
+			);
+			path = "iOS Basics";
+			sourceTree = "<group>";
+		};
+		B7EE46032D2A895100E29381 /* Downloading */ = {
+			isa = PBXGroup;
+			children = (
+				B7EE46042D2A8B9200E29381 /* DownloadDataFromNet.swift */,
+			);
+			path = Downloading;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -362,6 +383,7 @@
 				B7202EC32C9DF58700B4C490 /* CustomNavBarContainerView.swift in Sources */,
 				B7058B282CB19CD60098CC44 /* ProtocolsDemo.swift in Sources */,
 				B77FB41B2CAF0F2400DFC36C /* ImageAsyncAwait.swift in Sources */,
+				B7EE46052D2A8B9200E29381 /* DownloadDataFromNet.swift in Sources */,
 				B71F1D882C74B0F000B5C737 /* RotationGestureDemo.swift in Sources */,
 				B7058B302CB43D230098CC44 /* 23_DownloadWithCombine.swift in Sources */,
 				B76F0B512CD80AC10008B163 /* mangerFile.swift in Sources */,
