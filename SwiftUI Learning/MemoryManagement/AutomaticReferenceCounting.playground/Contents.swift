@@ -100,5 +100,7 @@ if(3 == 3){
     objJob3.person = objPerson3
 }
 
+// Other way to break the strong reference cycle is to set the object relationship to nil...
+// objPerson3.job = nil -> This will break the strong reference cycle...
 
 

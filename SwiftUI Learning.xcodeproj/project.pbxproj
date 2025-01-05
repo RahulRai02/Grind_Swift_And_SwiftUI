@@ -112,6 +112,7 @@
 		B7EE45F12D25734D00E29381 /* 8_StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_StructClassActor.swift; sourceTree = "<group>"; };
 		B7EE45F62D27C3B800E29381 /* 4_MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		B7EE45FD2D2A578500E29381 /* AutomaticReferenceCounting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AutomaticReferenceCounting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B7EE45FE2D2A6EF700E29381 /* WeakVsUnowned.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WeakVsUnowned.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				B7EE45FD2D2A578500E29381 /* AutomaticReferenceCounting.playground */,
+				B7EE45FE2D2A6EF700E29381 /* WeakVsUnowned.playground */,
 			);
 			path = MemoryManagement;
 			sourceTree = "<group>";
