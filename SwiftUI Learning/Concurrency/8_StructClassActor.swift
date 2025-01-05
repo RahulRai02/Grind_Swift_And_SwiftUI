@@ -101,6 +101,24 @@
  3. If two threads are accessing same actor, then one of the thread need to await, so that the 2nd one could work...
  */
 
+/* MY NOTES ON WEAK SELF
+ /*
+  func downloadImageWithEscaping(completionHandler: @escaping (_ image: UIImage?, _ error: Error?) -> ()) {
+      URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
+          let image = self?.handleResponse(data: data, response: response)
+          completionHandler(image, error)
+      }
+      .resume()
+  }
+  */
+ 1. In the above code, we are using [weak self] to avoid retain cycle.
+ 2. The closure will not execute immediately, its asynchronous.
+ 3. There is going to be a delay when the function is going to fetch the data and whrn the closure is being executed.
+ 4. Why [WEAK self],
+ 
+ 
+ */
+
 import SwiftUI
 
 struct __StructClassActor: View {

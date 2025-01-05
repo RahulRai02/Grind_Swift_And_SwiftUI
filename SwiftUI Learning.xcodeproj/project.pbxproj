@@ -111,6 +111,7 @@
 		B7EB5D692CDA84F400BE7159 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		B7EE45F12D25734D00E29381 /* 8_StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_StructClassActor.swift; sourceTree = "<group>"; };
 		B7EE45F62D27C3B800E29381 /* 4_MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_MatchedGeometryEffect.swift; sourceTree = "<group>"; };
+		B7EE45FD2D2A578500E29381 /* AutomaticReferenceCounting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AutomaticReferenceCounting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,11 +146,12 @@
 			children = (
 				B71F1D772C6F642600B5C737 /* SwiftUI_LearningApp.swift */,
 				B71F1D792C6F642600B5C737 /* ContentView.swift */,
-				B7EB5D622CDA7AE400BE7159 /* Helpers */,
-				B7202EAB2C8F4FCD00B4C490 /* Advanced */,
-				B77FB4172CAEF6AB00DFC36C /* Concurrency */,
 				B71F1D942C760C2C00B5C737 /* Beginner */,
 				B71F1D932C760C1B00B5C737 /* Intermediate */,
+				B7202EAB2C8F4FCD00B4C490 /* Advanced */,
+				B7EB5D622CDA7AE400BE7159 /* Helpers */,
+				B77FB4172CAEF6AB00DFC36C /* Concurrency */,
+				B7EE45FC2D2A575E00E29381 /* MemoryManagement */,
 				B71F1D7D2C6F642800B5C737 /* Preview Content */,
 			);
 			path = "SwiftUI Learning";
@@ -267,6 +269,14 @@
 				B7EB5D692CDA84F400BE7159 /* ApiManager.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B7EE45FC2D2A575E00E29381 /* MemoryManagement */ = {
+			isa = PBXGroup;
+			children = (
+				B7EE45FD2D2A578500E29381 /* AutomaticReferenceCounting.playground */,
+			);
+			path = MemoryManagement;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
