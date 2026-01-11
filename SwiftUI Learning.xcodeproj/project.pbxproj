@@ -34,7 +34,6 @@
 		B71F1DAB2C84D8CB00B5C737 /* 12_HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DAA2C84D8CB00B5C737 /* 12_HashableProtocol.swift */; };
 		B71F1DAD2C85C54D00B5C737 /* 13_SortFilterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DAC2C85C54D00B5C737 /* 13_SortFilterMap.swift */; };
 		B71F1DAF2C8722B500B5C737 /* 15_CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DAE2C8722B500B5C737 /* 15_CoreData.swift */; };
-		B71F1DB22C87245C00B5C737 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B71F1DB02C87245B00B5C737 /* FruitsContainer.xcdatamodeld */; };
 		B7202EAD2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EAC2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift */; };
 		B7202EAF2C8F55E900B4C490 /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EAE2C8F55E900B4C490 /* GeometryPreferenceKey.swift */; };
 		B7202EB12C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7202EB02C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift */; };
@@ -58,6 +57,7 @@
 		B7EE45F22D25734D00E29381 /* 8_StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EE45F12D25734D00E29381 /* 8_StructClassActor.swift */; };
 		B7EE45F72D27C3B800E29381 /* 4_MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EE45F62D27C3B800E29381 /* 4_MatchedGeometryEffect.swift */; };
 		B7EE46052D2A8B9200E29381 /* DownloadDataFromNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EE46042D2A8B9200E29381 /* DownloadDataFromNet.swift */; };
+		D523512D2F1400510087E6FD /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D523512B2F1400510087E6FD /* FruitsContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,7 +89,6 @@
 		B71F1DAA2C84D8CB00B5C737 /* 12_HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_HashableProtocol.swift; sourceTree = "<group>"; };
 		B71F1DAC2C85C54D00B5C737 /* 13_SortFilterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13_SortFilterMap.swift; sourceTree = "<group>"; };
 		B71F1DAE2C8722B500B5C737 /* 15_CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_CoreData.swift; sourceTree = "<group>"; };
-		B71F1DB12C87245C00B5C737 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		B7202EAC2C8F4FDF00B4C490 /* PreferenceKeyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyDemo.swift; sourceTree = "<group>"; };
 		B7202EAE2C8F55E900B4C490 /* GeometryPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKey.swift; sourceTree = "<group>"; };
 		B7202EB02C907CAD00B4C490 /* ScrollViewOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKey.swift; sourceTree = "<group>"; };
@@ -116,7 +115,12 @@
 		B7EE45FE2D2A6EF700E29381 /* WeakVsUnowned.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WeakVsUnowned.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B7EE46022D2A792600E29381 /* UnwrappingOptionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UnwrappingOptionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B7EE46042D2A8B9200E29381 /* DownloadDataFromNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadDataFromNet.swift; sourceTree = "<group>"; };
+		D523512C2F1400510087E6FD /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D52351282F13FF4F0087E6FD /* UI Practice */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "UI Practice"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B71F1D712C6F642600B5C737 /* Frameworks */ = {
@@ -148,6 +152,7 @@
 		B71F1D762C6F642600B5C737 /* SwiftUI Learning */ = {
 			isa = PBXGroup;
 			children = (
+				D52351282F13FF4F0087E6FD /* UI Practice */,
 				B71F1D772C6F642600B5C737 /* SwiftUI_LearningApp.swift */,
 				B71F1D942C760C2C00B5C737 /* Beginner */,
 				B71F1D932C760C1B00B5C737 /* Intermediate */,
@@ -190,9 +195,9 @@
 				B7058B292CB2A4630098CC44 /* 20_EscapingBootCamp.swift */,
 				B7058B2D2CB3F10E0098CC44 /* 22_DownloadJsonUsingEscaping.swift */,
 				B7058B2F2CB43D230098CC44 /* 23_DownloadWithCombine.swift */,
-				B71F1DB02C87245B00B5C737 /* FruitsContainer.xcdatamodeld */,
 				B71F1DA12C7F1D9700B5C737 /* Sounds */,
 				B7D197AE2CE88CB5009BEFE6 /* TimerDemo.swift */,
+				D523512B2F1400510087E6FD /* FruitsContainer.xcdatamodeld */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -317,6 +322,9 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				D52351282F13FF4F0087E6FD /* UI Practice */,
+			);
 			name = "SwiftUI Learning";
 			productName = "SwiftUI Learning";
 			productReference = B71F1D742C6F642600B5C737 /* SwiftUI Learning.app */;
@@ -376,7 +384,6 @@
 			files = (
 				B7D197AF2CE88CB5009BEFE6 /* TimerDemo.swift in Sources */,
 				B7202EB42C99ADE700B4C490 /* AppTabBarView.swift in Sources */,
-				B71F1DB22C87245C00B5C737 /* FruitsContainer.xcdatamodeld in Sources */,
 				B7058B2E2CB3F10E0098CC44 /* 22_DownloadJsonUsingEscaping.swift in Sources */,
 				B7202EBF2C9B2D1C00B4C490 /* AppNavBarView.swift in Sources */,
 				B71F1DAD2C85C54D00B5C737 /* 13_SortFilterMap.swift in Sources */,
@@ -410,6 +417,7 @@
 				B71F1DAF2C8722B500B5C737 /* 15_CoreData.swift in Sources */,
 				B71F1D8C2C74C00400B5C737 /* DragGestureDemo2.swift in Sources */,
 				B7202EC92C9EE46800B4C490 /* CustomNavBarPreferenceKey.swift in Sources */,
+				D523512D2F1400510087E6FD /* FruitsContainer.xcdatamodeld in Sources */,
 				B71F1DA72C7F7D3900B5C737 /* 10_Haptic.swift in Sources */,
 				B71F1D8A2C74B3AC00B5C737 /* DragGestureDemo.swift in Sources */,
 				B71F1D862C6FD45A00B5C737 /* MagnificationGestureDemo.swift in Sources */,
@@ -628,14 +636,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B71F1DB02C87245B00B5C737 /* FruitsContainer.xcdatamodeld */ = {
+		D523512B2F1400510087E6FD /* FruitsContainer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B71F1DB12C87245C00B5C737 /* FruitsContainer.xcdatamodel */,
+				D523512C2F1400510087E6FD /* FruitsContainer.xcdatamodel */,
 			);
-			currentVersion = B71F1DB12C87245C00B5C737 /* FruitsContainer.xcdatamodel */;
-			name = FruitsContainer.xcdatamodeld;
-			path = "/Users/rahul/Documents/All Data/Apps/Practice SWIFTUI/SwiftUI Learning/SwiftUI Learning/Intermediate/FruitsContainer.xcdatamodeld";
+			currentVersion = D523512C2F1400510087E6FD /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
