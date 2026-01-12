@@ -14,7 +14,7 @@ struct SwiftUI_LearningApp: App {
 //            CoffeeOrderListScreen()
 //            ProductView()
 //            __StructClassActor()
-            DownloadDataFromNet()
+            heartIconUI()
         }
     }
 }
